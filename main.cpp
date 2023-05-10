@@ -8,7 +8,7 @@ int main()
     cout << "scegli il valore" << endl;
     cin >> n;
     bool finito = true;
-    if (n >= 2){
+    
         cout << primo << endl;
         cout << secondo <<endl;
         while (n-2 > 0 && finito){
@@ -23,10 +23,6 @@ int main()
             }
 
             n--;
-        }
-    }
-     else if (n <= 2) {
-        cout << "errore" << endl;
-    }
+        } 
     return 0;
 }
