@@ -25,5 +25,8 @@ int main()
             n--;
         }
     }
+     else if (n <= 2) {
+        cout << "errore" << endl;
+    }
     return 0;
 }
